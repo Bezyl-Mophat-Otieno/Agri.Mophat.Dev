@@ -1,0 +1,9 @@
+.custom {
+  background-image: url("../../assets/images/circular/circle1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.custom-font {
+  font-family: "Caveat", cursive;
+}
