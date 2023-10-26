@@ -47,16 +47,16 @@ function AboutNav() {
             <ul class="navbar-nav navbar-nav-scroll mx-auto">
               {/* <!-- Nav item Home --> */}
               <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
+                <Link
+                  class="nav-link"
+                  to="/"
                   id="homeMenu"
                   data-bs-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
                   Home
-                </a>
+                </Link>
               </li>
 
               {/* <!-- Nav item Pages --> */}
@@ -82,13 +82,6 @@ function AboutNav() {
                     {" "}
                     <Link class="dropdown-item" to="/contact">
                       Contact
-                    </Link>
-                  </li>
-
-                  <li>
-                    {" "}
-                    <Link class="dropdown-item" to="/team">
-                      Our Team
                     </Link>
                   </li>
 

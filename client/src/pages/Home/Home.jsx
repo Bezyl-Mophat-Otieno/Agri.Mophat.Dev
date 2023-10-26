@@ -148,43 +148,24 @@ function Home() {
 
                 {/* <!-- Booking from START --> */}
                 <form class="card shadow rounded-3 position-relative p-4 pe-md-5 pb-5 pb-md-4">
-                  <div class="row g-4 align-items-center">
+                  <div class="row g-4 align-items-end">
                     {/* <!-- Location --> */}
                     <div class="col-lg-4">
                       <div class="form-control-border form-control-transparent form-fs-md d-flex">
                         {/* <!-- Icon --> */}
-                        <i class="bi bi-geo-alt fs-3 me-2 mt-2"></i>
+                        <i class="bi bi-cash-coin fs-3 me-2 mt-2"></i>
                         {/* <!-- Select input --> */}
                         <div class="flex-grow-1">
-                          <label class="form-label">Location</label>
+                          <label class="form-label">Price</label>
                           <select
                             class="form-select js-choice"
                             data-search-enabled="true"
                           >
-                            <option value="">Select location</option>
-                            <option>San Jacinto, USA</option>
-                            <option>North Dakota, Canada</option>
-                            <option>West Virginia, Paris</option>
+                            <option value="">Select Price Range</option>
+                            <option>5000-10000</option>
+                            <option>2500-5000</option>
+                            <option>1500-2500</option>
                           </select>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* <!-- Check in --> */}
-                    <div class="col-lg-4">
-                      <div class="d-flex">
-                        {/* <!-- Icon --> */}
-                        <i class="bi bi-calendar fs-3 me-2 mt-2"></i>
-                        {/* <!-- Date input --> */}
-                        <div class="form-control-border form-control-transparent form-fs-md">
-                          <label class="form-label">Check in - out</label>
-                          <input
-                            type="text"
-                            class="form-control flatpickr"
-                            data-mode="range"
-                            placeholder="Select date"
-                            value="19 Sep to 28 Sep"
-                          />
                         </div>
                       </div>
                     </div>
@@ -193,15 +174,15 @@ function Home() {
                     <div class="col-lg-4">
                       <div class="form-control-border form-control-transparent form-fs-md d-flex">
                         {/* <!-- Icon --> */}
-                        <i class="bi bi-person fs-3 me-2 mt-2"></i>
+                        <i class="fa-brands fa-product-hunt"></i>
                         {/* <!-- Dropdown input --> */}
                         <div class="w-100">
-                          <label class="form-label">Guests & rooms</label>
+                          <label class="form-label"></label>
                           <div class="dropdown guest-selector me-2">
                             <input
                               type="text"
+                              placeholder="Search Product"
                               class="form-guest-selector form-control selection-result"
-                              value="2 Guests 1 Room"
                               data-bs-auto-close="outside"
                               data-bs-toggle="dropdown"
                             />

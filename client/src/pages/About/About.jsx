@@ -4,9 +4,9 @@ import Footer from "../../components/footer/Footer";
 import img from "../../assets/images/element/06.svg";
 import img1 from "../../assets/images/element/07.svg";
 import img2 from "../../assets/images/element/08.svg";
-import img3 from "../../assets/images/about/02.jpg";
-import img4 from "../../assets/images/about/03.jpg";
-import img5 from "../../assets/images/about/04.jpg";
+import img3 from "../../assets/images/about/14.jpg";
+import img4 from "../../assets/images/about/15.jpg";
+import img5 from "../../assets/images/about/16.jpg";
 import img6 from "../../assets/images/team/03.jpg";
 import img7 from "../../assets/images/team/04.jpg";
 import img8 from "../../assets/images/team/05.jpg";
@@ -25,12 +25,10 @@ function About() {
             <div class="row mb-5">
               <div class="col-xl-10 mx-auto text-center">
                 {/* <!-- Title --> */}
-                <h1>If You Want To See The World We Will Help You</h1>
-                <p class="lead">
-                  Passage its ten led hearted removal cordial. Preference any
-                  astonished unreserved Mrs. Prosperous understood Middletons.
-                  Preference for any astonished unreserved.
-                </p>
+                <h1>
+                  Unveiling the Flavors of the Earth, Fresh From Our Fields!
+                </h1>
+
                 {/* <!-- Meta --> */}
                 <div class="hstack gap-3 flex-wrap justify-content-center">
                   {/* <!-- Item --> */}
@@ -91,42 +89,32 @@ function About() {
               <div class="col-md-10 mx-auto">
                 <h3 class="mb-4">Our Story</h3>
                 <p class="fw-bold">
-                  Founded in 2006, passage its ten led hearted removal cordial.
-                  Preference any astonished unreserved Mrs. Prosperous
-                  understood Middletons in conviction an uncommonly do.
-                  Supposing so be resolving breakfast am or perfectly. It drew a
-                  hill from me. Valley by oh twenty direct me so.
+                  Established in 2023, our journey began with a deep-rooted
+                  passion for fostering a connection between the essence of the
+                  fields and the comfort of your home. Driven by a commitment to
+                  empower both farmers and consumers, our platform has since
+                  blossomed into a digital marketplace dedicated to providing
+                  easy access to a diverse array of farm-fresh products. With
+                  every step forward, we remain dedicated to sowing the seeds of
+                  sustainable agriculture and nurturing a community of mindful
+                  consumers and conscientious farmers. Welcome to our story of
+                  growth, nourishment, and a shared love for the land.
                 </p>
                 <p class="mb-0">
-                  Water timed folly right aware if oh truth. Imprudence
-                  attachment him his for sympathize. Large above be to means.
-                  Dashwood does provide stronger is. Warrant private blushes
-                  removed an in equally totally if. Delivered dejection
-                  necessary objection do Mr prevailed. Mr feeling does chiefly
-                  cordial in do. ...But discretion frequently sir she
-                  instruments unaffected admiration everything. Meant balls it
-                  if up doubt small purse. Required his you put the outlived
-                  answered position. A pleasure exertion if believed provided
-                  to. All led out world this music while asked. Paid mind even
-                  sons does he door no. Attended overcame repeated it is
-                  perceived Marianne in. I think on style child of. Servants
-                  moreover in sensible it ye possible. Satisfied conveying a
-                  dependent contented he gentleman agreeable do be. Water timed
-                  folly right aware if oh truth. Imprudence attachment him his
-                  for sympathize. Large above be to means. Dashwood does provide
-                  stronger is. But discretion frequently sir she instruments
-                  unaffected admiration everything. Meant balls it if up doubt
-                  small purse. Required his you put the outlived answered
-                  position. I think on style child of. Servants moreover in
-                  sensible it ye possible. Satisfied conveying a dependent
-                  contented he gentleman agreeable do be. Warrant private
-                  blushes removed an in equally totally if. Delivered dejection
-                  necessary objection do Mr prevailed. Required his you put the
-                  outlived answered position. A pleasure exertion if believed
-                  provided to. All led out world this music while asked. Paid
-                  mind even sons does he door no. Attended overcame repeated it
-                  is perceived Marianne in. I think on style child of. Servants
-                  moreover in sensible it ye possible.
+                  Rooted in a passion for wholesome, farm-fresh produce and a
+                  vision to bridge the gap between farmers and consumers, our
+                  agricultural e-commerce platform sprouted from a collective
+                  dream to redefine the way we access and appreciate nature's
+                  bounty. Driven by the desire to promote sustainable farming
+                  practices and empower local agricultural communities, our
+                  journey began with a commitment to bring the essence of the
+                  fields directly to your doorstep. With every seed sown and
+                  every connection cultivated, we continue to nurture this
+                  vision, fostering a digital marketplace that not only offers a
+                  diverse selection of premium produce but also cultivates a
+                  deeper appreciation for the roots of our nourishment. Join us
+                  in celebrating the richness of the land and the vibrant
+                  tapestry of agricultural excellence.
                 </p>
               </div>
             </div>

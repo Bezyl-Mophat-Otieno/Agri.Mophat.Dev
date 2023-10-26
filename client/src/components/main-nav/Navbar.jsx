@@ -65,23 +65,14 @@ function Navbar() {
                 {/* <!-- Nav item Listing --> */}
                 <li class="nav-item dropdown">
                   <Link
-                    class="nav-link dropdown-toggle"
-                    to="/products"
+                    class="nav-link"
+                    to="/market-place"
                     id="listingMenu"
-                    data-bs-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
                     Market Place
                   </Link>
-                  <ul class="dropdown-menu" aria-labelledby="listingMenu">
-                    <li>
-                      {" "}
-                      <Link class="dropdown-item" to="/market-place">
-                        Products
-                      </Link>
-                    </li>
-                  </ul>
                 </li>
 
                 {/* <!-- Nav item Pages --> */}
@@ -107,13 +98,6 @@ function Navbar() {
                       {" "}
                       <Link class="dropdown-item" to="/contact">
                         Contact
-                      </Link>
-                    </li>
-
-                    <li>
-                      {" "}
-                      <Link class="dropdown-item" to="/team">
-                        Our Team
                       </Link>
                     </li>
 

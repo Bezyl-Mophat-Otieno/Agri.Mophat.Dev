@@ -16,11 +16,6 @@ function Contact() {
               <div class="col-xl-10">
                 {/* <!-- Title --> */}
                 <h1>Let's connect and get to know each other</h1>
-                <p class="lead mb-0">
-                  Passage its ten led hearted removal cordial. Preference any
-                  astonished unreserved Mrs. Prosperous understood Middletons.
-                  Preference for any astonished unreserved.
-                </p>
               </div>
             </div>
 
@@ -42,10 +37,10 @@ function Contact() {
                   {/* <!-- Buttons --> */}
                   <div class="d-grid gap-3 d-sm-block">
                     <button class="btn btn-sm btn-primary-soft">
-                      <i class="bi bi-phone me-2"></i>+123 456 789
+                      <i class="bi bi-phone me-2"></i>+(254)7027 159 06
                     </button>
                     <button class="btn btn-sm btn-light">
-                      <i class="bi bi-telephone me-2"></i>+(222)4567 586
+                      <i class="bi bi-telephone me-2"></i>+(254)7008 084 60
                     </button>
                   </div>
                 </div>
@@ -67,7 +62,8 @@ function Contact() {
                     href="#"
                     class="btn btn-link text-decoration-underline p-0 mb-0"
                   >
-                    <i class="bi bi-envelope me-1"></i>example@gmail.com
+                    <i class="bi bi-envelope me-1"></i>
+                    bezylmophatotieno@gmail.com
                   </a>
                 </div>
               </div>

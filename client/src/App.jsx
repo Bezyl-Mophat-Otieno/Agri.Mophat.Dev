@@ -29,7 +29,6 @@ import Wishlist from "./pages/Wishlist/Wishlist";
 import DeleteAcc from "./pages/DeleteAc/DeleteAcc";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import AddProduct from "./pages/AddProduct/AddProduct";
-import Team from "./pages/Team/Team";
 
 const Root = () => {
   return (
@@ -69,7 +68,6 @@ function App() {
         <Route path="/delete-account" element={<DeleteAcc />}></Route>
         <Route path="/dashboard" element={<Dashboard />}></Route>
         <Route path="/addProduct" element={<AddProduct />}></Route>
-        <Route path="/team" element={<Team />}></Route>
       </Route>
     )
   );
