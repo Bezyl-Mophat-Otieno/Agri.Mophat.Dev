@@ -1,0 +1,26 @@
+CREATE TABLE products (
+    id VARCHAR(255) NOT NULL PRIMARY KEY,
+    image VARCHAR (255) NULL,
+    name VARCHAR(255) NOT NULL,
+    description VARCHAR(255) NOT NULL,
+    price DECIMAL(10,2) NOT NULL,
+    discount DECIMAL(10,2) DEFAULT 0,
+    
+)
+
+
+
+
+
+
+CREATE TABLE blogs (
+    id VARCHAR(255) NOT NULL PRIMARY KEY,
+    coverImage VARCHAR (255) NULL,
+    image VARCHAR (255) NULL,
+    title VARCHAR(255) NOT NULL,
+    content TEXT NOT NULL,
+    views INT DEFAULT 0,
+    likes INT DEFAULT 0,
+    created_at DATETIME  DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME NULL  DEFAULT CURRENT_TIMESTAMP,
+)
