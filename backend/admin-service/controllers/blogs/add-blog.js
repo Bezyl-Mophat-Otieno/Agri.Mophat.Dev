@@ -12,8 +12,8 @@ const addBlog = async (req, res) => {
 
     if (result.rowsAffected[0] === 0)
       return res
-        .status(500)
-        .json({ message: "Internal server error, blog not added" });
+        .status(400)
+        .json({ message: "Blog not added" });
     res.status(201).json({ message: "Blog added successfully" });
   } catch (error) {
     console.log(error);

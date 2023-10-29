@@ -9,9 +9,10 @@ const getSingleBlog = async (req, res) => {
       id,
       ...req.body,
     });
-
-    if (result.recordset.length < 0)
+    console.log(result.recordset.length);
+    if (result.recordset.length === 0) {
       res.status(404).json({ message: "Blog not found" });
+    }
     res.status(200).json({
       message: "Blog fetched successfully",
       blog: result.recordset[0],

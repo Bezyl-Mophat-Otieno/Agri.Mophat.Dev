@@ -4,8 +4,8 @@ CREATE OR ALTER PROCEDURE updateBlog
 @content VARCHAR(255)=NULL,
 @image VARCHAR(255) = NULL,
 @coverImage VARCHAR(255) = NULL,
-@views INT ,
-@likes INT ,
+@views INT = NULL ,
+@likes INT = NULL ,
 @updated_at DATETIME = NULL
 
 AS BEGIN

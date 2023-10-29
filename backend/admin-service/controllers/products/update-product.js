@@ -3,6 +3,7 @@ import DB from "../../database/dbHelper.js";
 const updateProduct = async (req, res) => {
   try {
     const { id } = req.params;
+    if (!id) return res.status(400).json({ message: "Product id is required" }); 
 
     const result = await DB.executeProcedure("updateProduct", {
       id,

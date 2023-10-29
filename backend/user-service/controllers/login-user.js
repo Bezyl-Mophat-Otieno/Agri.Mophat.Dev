@@ -5,9 +5,11 @@ import bcrypt from "bcryptjs";
 const userLogin = async (req, res) => {
   try {
     const { email, password } = req.body;
+    if(!email || !password) return res.status(400).json({message: "Please provide an email and password"})
 
     const result = await DB.executeProcedure("getUserByEmail", { email });
     const user = result.recordset[0];
+    console.log(user)
     if (!user) {
       return res
         .status(404)

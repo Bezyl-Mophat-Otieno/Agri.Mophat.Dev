@@ -3,6 +3,7 @@ import DB from "../../database/dbHelper.js";
 const deleteProduct = async (req, res) => {
   try {
     const { id } = req.params;
+    if (!id) return res.status(400).json({ message: "Please provide the ID" });
 
     const result = await DB.executeProcedure("deleteProduct", { id });
     console.log(result);

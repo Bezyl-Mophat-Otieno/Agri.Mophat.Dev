@@ -19,7 +19,7 @@ const addProduct = async (req, res) => {
     if (result.rowsAffected[0] === 1) {
       return res.status(201).json({ message: "Product added successfully" });
     } else {
-      return res.status(400).json({ message: "Product not added" });
+      return res.status(400).json({ message: "Product was not added" });
     }
   } catch (error) {
     console.log(error);
